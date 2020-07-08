@@ -1,0 +1,1001 @@
+#!/bin/bash
+sleep 1
+clear
+cyan='\e[0;36m'
+lightgreen='\e[1;32m'
+red='\e[1;31m'
+yellow='\e[1;33m'
+r='\033[1;31m'
+g='\033[1;32m'
+y='\033[1;33m'
+pur='\033[1;34m'
+p='\033[1;35m'
+c='\033[1;36m'
+w='\033[1;37m'
+hari=`date +%A`
+tanggal=`date +%d`
+bulan=`date +%B`
+tahun=`date +%Y`
+waktu=`date +%T`
+zona=`date +%Z`
+clear
+sh us8wbduisjwie8w98djwie8wj3j8diejeididjeud8ej3
+toilet -f big 'Termux Banner' -F gay
+echo -e $lightgreen "\e[1m                      Security Help For Official Dark Angle... "
+echo " "
+echo -e $yellow "\e[1m                               -Kanchil ID "
+echo " "
+echo "                                   V 0.1"
+echo " "
+echo " "
+menu() {
+    echo
+    echo "  Date:$hari,$tanggal-$bulan-$tahun"   "              Time:$waktu"     "                  Zona:$zona"
+    echo
+    echo -e "${r}
+                                  (    ${g}Tema pilihan     ${r})
+
+    ${r}[ 1${r}] ${g}BLAG                       ${r}[11${r}] ${g}Fedora	        ${r}[21${r}] ${g}PCLinuxOS
+    ${r}[ 2${r}] ${g}KaOS                       ${r}[12${r}] ${g}Fuduntu        ${r}[22${r}] ${g}CRUX
+    ${r}[ 3${r}] ${g}Debian                     ${r}[13${r}] ${g}BunsenLabs     ${r}[23${r}] ${g}Sabayon
+    ${r}[ 4${r}] ${g}Pardus                     ${r}[14${r}] ${g}CentOS	        ${r}[24${r}] ${g}Chakra
+    ${r}[ 5${r}] ${g}ROSA                       ${r}[15${r}] ${g}SparkyLinux    ${r}[25${r}] ${g}SteamOS
+    ${r}[ 6${r}] ${g}SailfishOS                 ${r}[16${r}] ${g}Frugalware     ${r}[26${r}] ${g}Korora
+    ${r}[ 7${r}] ${g}Viperr and Void            ${r}[17${r}] ${g}SwagArch       ${r}[27${r}] ${g}gNewSense
+    ${r}[ 8${r}] ${g}SlackWare                  ${r}[18${r}] ${g}Solus          ${r}[28${r}] ${g}Trisquel
+    ${r}[ 9${r}] ${g}Mandriva                   ${r}[19${r}] ${g}Gentoo         ${r}[29${r}] ${g}Exherbo
+    ${r}[10${r}] ${g}Netrunner                  ${r}[20${r}] ${g}Fux            ${r}[30${r}] ${g}Deepin
+
+         			    ${r}[31${r}] ${g}Mageia
+	         		    ${r}[32${r}] ${g}Logos
+    ${r}▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓              ${r}[33${r}] ${g}Raspbian          ${r}▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
+    ${r}▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓              ${r}[34${r}] ${g}CrunchBang        ${r}▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
+    ${w}▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓              ${r}[35${r}] ${g}LinuxDeepin       ${w}▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
+    ${w}▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓              ${r}[36${r}] ${g}openSUSE          ${w}▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
+         			    ${r}[37${r}] ${g}Report bug
+         			    ${r}[38${r}] ${g}Subscribe Chanel
+	 	        	    ${r}[39${r}] ${g}Join Grup
+	         		    ${r}[40${r}] ${g}Update Tool"
+}
+ident() {
+    echo -n "What Your Name Hacker: ";read nama
+    echo -n "Name to PS1: ";read ps1
+}
+BLAG() {
+    echo "clear" > cl3ar.txt
+    echo "screenfetch -A BLAG" > l0g0.txt
+    echo "PS1='\n\n\[\033[1;36m\]╭──\[\033[1;31m\][\[\033[1;32m\]$ps1\[\033[1;31m\]]\[\033[1;36m\]─\[\033[1;31m\][\[\033[1;33m\]\w\[\033[1;31m\]]\n\[\033[1;36m\]|\n╰─\[\033[1;31m\]~# \[\033[1;37m\]'" > ps1.txt
+    echo -e "echo '            \033[1;31mC0d3d B\033[1;37my3 $nama'" > n4m4.txt
+    cd $HOME/../usr/etc
+    rm -rf bash.bashrc
+    cd
+    cd theme
+    cat "cl3ar.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+    cat "l0g0.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+    cat "n4m4.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+    cat "ps1.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+    rm -rf cl3ar.txt
+    rm -rf l0g0.txt
+    rm -rf ps1.txt
+    rm -rf n4m4.txt
+    python2 loanjing.py
+    echo "Tema Berhasil terpasang"
+    sleep 2
+}
+KaOS() {
+    echo "clear" > cl3ar.txt
+    echo "screenfetch -A KaOS" > l0g0.txt
+    echo "PS1='\n\n\[\033[1;36m\]╭──\[\033[1;31m\][\[\033[1;32m\]$ps1\[\033[1;31m\]]\[\033[1;36m\]─\[\033[1;31m\][\[\033[1;33m\]\w\[\033[1;31m\]]\n\[\033[1;36m\]|\n╰─\[\033[1;31m\]~# \[\033[1;37m\]'" > ps1.txt
+    echo -e "echo '            \033[1;31mC0d3d B\033[1;37my3 $nama'" > n4m4.txt
+    cd $HOME/../usr/etc
+    rm -rf bash.bashrc
+    cd
+    cd theme
+    cat "cl3ar.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+    cat "l0g0.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+    cat "n4m4.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+    cat "ps1.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+    rm -rf cl3ar.txt
+    rm -rf l0g0.txt
+    rm -rf ps1.txt
+    rm -rf n4m4.txt
+    python2 loanjing.py
+    echo "Tema Berhasil terpasang"
+    sleep 2
+}
+Debian() {
+    echo "clear" > cl3ar.txt
+    echo "screenfetch -A Debian" > l0g0.txt
+    echo "PS1='\n\n\[\033[1;36m\]╭──\[\033[1;31m\][\[\033[1;32m\]$ps1\[\033[1;31m\]]\[\033[1;36m\]─\[\033[1;31m\][\[\033[1;33m\]\w\[\033[1;31m\]]\n\[\033[1;36m\]|\n╰─\[\033[1;31m\]~# \[\033[1;37m\]'" > ps1.txt
+    echo -e "echo '            \033[1;31mC0d3d B\033[1;37my3 $nama'" > n4m4.txt
+    cd $HOME/../usr/etc
+    rm -rf bash.bashrc
+    cd
+    cd theme
+    cat "cl3ar.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+    cat "l0g0.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+    cat "n4m4.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+    cat "ps1.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+    rm -rf cl3ar.txt
+    rm -rf l0g0.txt
+    rm -rf ps1.txt
+    rm -rf n4m4.txt
+    python2 loanjing.py
+    echo "Tema Berhasil terpasang"
+    sleep 2
+}
+Pardus() {
+    echo "clear" > cl3ar.txt
+    echo "screenfetch -A Pardus" > l0g0.txt
+    echo "PS1='\n\n\[\033[1;36m\]╭──\[\033[1;31m\][\[\033[1;32m\]$ps1\[\033[1;31m\]]\[\033[1;36m\]─\[\033[1;31m\][\[\033[1;33m\]\w\[\033[1;31m\]]\n\[\033[1;36m\]|\n╰─\[\033[1;31m\]~# \[\033[1;37m\]'" > ps1.txt
+    echo -e "echo '            \033[1;31mC0d3d B\033[1;37my3 $nama'" > n4m4.txt
+    cd $HOME/../usr/etc
+    rm -rf bash.bashrc
+    cd
+    cd theme
+    cat "cl3ar.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+    cat "l0g0.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+    cat "n4m4.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+    cat "ps1.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+    rm -rf cl3ar.txt
+    rm -rf l0g0.txt
+    rm -rf ps1.txt
+    rm -rf n4m4.txt
+    python2 loanjing.py
+    echo "Tema Berhasil terpasang"
+    sleep 2
+}
+ROSA() {
+    echo "clear" > cl3ar.txt
+    echo "s	creenfetch -A ROSA" > l0g0.txt
+    echo "PS1='\n\n\[\033[1;36m\]╭──\[\033[1;31m\][\[\033[1;32m\]$ps1\[\033[1;31m\]]\[\033[1;36m\]─\[\033[1;31m\][\[\033[1;33m\]\w\[\033[1;31m\]]\n\[\033[1;36m\]|\n╰─\[\033[1;31m\]~# \[\033[1;37m\]'" > ps1.txt
+    echo -e "echo '            \033[1;31mC0d3d B\033[1;37my3 $nama'" > n4m4.txt
+    cd $HOME/../usr/etc
+    rm -rf bash.bashrc
+    cd
+    cd theme
+    cat "cl3ar.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+    cat "l0g0.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+    cat "n4m4.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+    cat "ps1.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+    rm -rf cl3ar.txt
+    rm -rf l0g0.txt
+    rm -rf ps1.txt
+    rm -rf n4m4.txt
+    python2 loanjing.py
+    echo "Tema Berhasil terpasang"
+    sleep 2
+}
+SailfishOS() {
+    echo "clear" > cl3ar.txt
+    echo "screenfetch -A SailfishOS" > l0g0.txt
+    echo "PS1='\n\n\[\033[1;36m\]╭──\[\033[1;31m\][\[\033[1;32m\]$ps1\[\033[1;31m\]]\[\033[1;36m\]─\[\033[1;31m\][\[\033[1;33m\]\w\[\033[1;31m\]]\n\[\033[1;36m\]|\n╰─\[\033[1;31m\]~# \[\033[1;37m\]'" > ps1.txt
+    echo -e "echo '            \033[1;31mC0d3d B\033[1;37my3 $nama'" > n4m4.txt
+    cd $HOME/../usr/etc
+    rm -rf bash.bashrc
+    cd
+    cd theme
+    cat "cl3ar.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+    cat "l0g0.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+    cat "n4m4.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+    cat "ps1.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+    rm -rf cl3ar.txt
+    rm -rf l0g0.txt
+    rm -rf ps1.txt
+    rm -rf n4m4.txt
+    python2 loanjing.py
+    echo "Tema Berhasil terpasang"
+    sleep 2
+}
+Viperr() {
+    echo "clear" > cl3ar.txt
+    echo "screenfetch -A Viperr and Void" > l0g0.txt
+    echo "PS1='\n\n\[\033[1;36m\]╭──\[\033[1;31m\][\[\033[1;32m\]$ps1\[\033[1;31m\]]\[\033[1;36m\]─\[\033[1;31m\][\[\033[1;33m\]\w\[\033[1;31m\]]\n\[\033[1;36m\]|\n╰─\[\033[1;31m\]~# \[\033[1;37m\]'" > ps1.txt
+    echo -e "echo '            \033[1;31mC0d3d B\033[1;37my3 $nama'" > n4m4.txt
+    cd $HOME/../usr/etc
+    rm -rf bash.bashrc
+    cd
+    cd theme
+    cat "cl3ar.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+    cat "l0g0.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+    cat "n4m4.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+    cat "ps1.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+    rm -rf cl3ar.txt
+    rm -rf l0g0.txt
+    rm -rf ps1.txt
+    rm -rf n4m4.txt
+    python2 loanjing.py
+    echo "Tema Berhasil terpasang"
+    sleep 2
+}
+SlackWare() {
+    echo "clear" > cl3ar.txt
+    echo "screenfetch -A SlackWare" > l0g0.txt
+    echo "PS1='\n\n\[\033[1;36m\]╭──\[\033[1;31m\][\[\033[1;32m\]$ps1\[\033[1;31m\]]\[\033[1;36m\]─\[\033[1;31m\][\[\033[1;33m\]\w\[\033[1;31m\]]\n\[\033[1;36m\]|\n╰─\[\033[1;31m\]~# \[\033[1;37m\]'" > ps1.txt
+    echo -e "echo '            \033[1;31mC0d3d B\033[1;37my3 $nama'" > n4m4.txt
+    cd $HOME/../usr/etc
+    rm -rf bash.bashrc
+    cd
+    cd theme
+    cat "cl3ar.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+    cat "l0g0.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+    cat "n4m4.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+    cat "ps1.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+    rm -rf cl3ar.txt
+    rm -rf l0g0.txt
+    rm -rf ps1.txt
+    rm -rf n4m4.txt
+    python2 loanjing.py
+    echo "Tema Berhasil terpasang"
+    sleep 2
+}
+Mandriva() {
+    echo "clear" > cl3ar.txt
+    echo "screenfetch -A Mandriva" > l0g0.txt
+    echo "PS1='\n\n\[\033[1;36m\]╭──\[\033[1;31m\][\[\033[1;32m\]$ps1\[\033[1;31m\]]\[\033[1;36m\]─\[\033[1;31m\][\[\033[1;33m\]\w\[\033[1;31m\]]\n\[\033[1;36m\]|\n╰─\[\033[1;31m\]~# \[\033[1;37m\]'" > ps1.txt
+    echo -e "echo '            \033[1;31mC0d3d B\033[1;37my3 $nama'" > n4m4.txt
+    cd $HOME/../usr/etc
+    rm -rf bash.bashrc
+    cd
+    cd theme
+    cat "cl3ar.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+    cat "l0g0.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+    cat "n4m4.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+    cat "ps1.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+    rm -rf cl3ar.txt
+    rm -rf l0g0.txt
+    rm -rf ps1.txt
+    rm -rf n4m4.txt
+    python2 loanjing.py
+    echo "Tema Berhasil terpasang"
+    sleep 2
+}
+Netrunner() {
+    echo "clear" > cl3ar.txt
+    echo "screenfetch -A Netrunner" > l0g0.txt
+    echo "PS1='\n\n\[\033[1;36m\]╭──\[\033[1;31m\][\[\033[1;32m\]$ps1\[\033[1;31m\]]\[\033[1;36m\]─\[\033[1;31m\][\[\033[1;33m\]\w\[\033[1;31m\]]\n\[\033[1;36m\]|\n╰─\[\033[1;31m\]~# \[\033[1;37m\]'" > ps1.txt
+    echo -e "echo '            \033[1;31mC0d3d B\033[1;37my3 $nama'" > n4m4.txt
+    cd $HOME/../usr/etc
+    rm -rf bash.bashrc
+    cd
+    cd theme
+    cat "cl3ar.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+    cat "l0g0.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+    cat "n4m4.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+    cat "ps1.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+    rm -rf cl3ar.txt
+    rm -rf l0g0.txt
+    rm -rf ps1.txt
+    rm -rf n4m4.txt
+    python2 loanjing.py
+    echo "Tema Berhasil terpasang"
+    sleep 2
+}
+Fedora() {
+    echo "clear" > cl3ar.txt
+    echo "screenfetch -A Fedora" > l0g0.txt
+    echo "PS1='\n\n\[\033[1;36m\]╭──\[\033[1;31m\][\[\033[1;32m\]$ps1\[\033[1;31m\]]\[\033[1;36m\]─\[\033[1;31m\][\[\033[1;33m\]\w\[\033[1;31m\]]\n\[\033[1;36m\]|\n╰─\[\033[1;31m\]~# \[\033[1;37m\]'" > ps1.txt
+    echo -e "echo '            \033[1;31mC0d3d B\033[1;37my3 $nama'" > n4m4.txt
+    cd $HOME/../usr/etc
+    rm -rf bash.bashrc
+    cd
+    cd theme
+    cat "cl3ar.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+    cat "l0g0.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+    cat "n4m4.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+    cat "ps1.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+    rm -rf cl3ar.txt
+    rm -rf l0g0.txt
+    rm -rf ps1.txt
+    rm -rf n4m4.txt
+    python2 loanjing.py
+    echo "Tema Berhasil terpasang"
+    sleep 2
+}
+Fuduntu() {
+    echo "clear" > cl3ar.txt
+    echo "screenfetch -A Fuduntu" > l0g0.txt
+    echo "PS1='\n\n\[\033[1;36m\]╭──\[\033[1;31m\][\[\033[1;32m\]$ps1\[\033[1;31m\]]\[\033[1;36m\]─\[\033[1;31m\][\[\033[1;33m\]\w\[\033[1;31m\]]\n\[\033[1;36m\]|\n╰─\[\033[1;31m\]~# \[\033[1;37m\]'" > ps1.txt
+    echo -e "echo '            \033[1;31mC0d3d B\033[1;37my3 $nama'" > n4m4.txt
+    cd $HOME/../usr/etc
+    rm -rf bash.bashrc
+    cd
+    cd theme
+    cat "cl3ar.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+    cat "l0g0.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+    cat "n4m4.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+    cat "ps1.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+    rm -rf cl3ar.txt
+    rm -rf l0g0.txt
+    rm -rf ps1.txt
+    rm -rf n4m4.txt
+    python2 loanjing.py
+    echo "Tema Berhasil terpasang"
+    sleep 2
+}
+BunsenLabs() {
+    echo "clear" > cl3ar.txt
+    echo "screenfetch -A BunsenLabs" > l0g0.txt
+    echo "PS1='\n\n\[\033[1;36m\]╭──\[\033[1;31m\][\[\033[1;32m\]$ps1\[\033[1;31m\]]\[\033[1;36m\]─\[\033[1;31m\][\[\033[1;33m\]\w\[\033[1;31m\]]\n\[\033[1;36m\]|\n╰─\[\033[1;31m\]~# \[\033[1;37m\]'" > ps1.txt
+    echo -e "echo '            \033[1;31mC0d3d B\033[1;37my3 $nama'" > n4m4.txt
+    cd $HOME/../usr/etc
+    rm -rf bash.bashrc
+    cd
+    cd theme
+    cat "cl3ar.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+    cat "l0g0.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+    cat "n4m4.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+    cat "ps1.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+    rm -rf cl3ar.txt
+    rm -rf l0g0.txt
+    rm -rf ps1.txt
+    rm -rf n4m4.txt
+    python2 loanjing.py
+    echo "Tema Berhasil terpasang"
+    sleep 2
+}
+CentOS() {
+    echo "clear" > cl3ar.txt
+    echo "screenfetch -A CentOS" > l0g0.txt
+    echo "PS1='\n\n\[\033[1;36m\]╭──\[\033[1;31m\][\[\033[1;32m\]$ps1\[\033[1;31m\]]\[\033[1;36m\]─\[\033[1;31m\][\[\033[1;33m\]\w\[\033[1;31m\]]\n\[\033[1;36m\]|\n╰─\[\033[1;31m\]~# \[\033[1;37m\]'" > ps1.txt
+    echo -e "echo '            \033[1;31mC0d3d B\033[1;37my3 $nama'" > n4m4.txt
+    cd $HOME/../usr/etc
+    rm -rf bash.bashrc
+    cd
+    cd theme
+    cat "cl3ar.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+    cat "l0g0.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+    cat "n4m4.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+    cat "ps1.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+    rm -rf cl3ar.txt
+    rm -rf l0g0.txt
+    rm -rf ps1.txt
+    rm -rf n4m4.txt
+    python2 loanjing.py
+    echo "Tema Berhasil terpasang"
+    sleep 2
+}
+SparkyLinux() {
+    echo "clear" > cl3ar.txt
+    echo "screenfetch -A SparkyLinux" > l0g0.txt
+    echo "PS1='\n\n\[\033[1;36m\]╭──\[\033[1;31m\][\[\033[1;32m\]$ps1\[\033[1;31m\]]\[\033[1;36m\]─\[\033[1;31m\][\[\033[1;33m\]\w\[\033[1;31m\]]\n\[\033[1;36m\]|\n╰─\[\033[1;31m\]~# \[\033[1;37m\]'" > ps1.txt
+    echo -e "echo '            \033[1;31mC0d3d B\033[1;37my3 $nama'" > n4m4.txt
+    cd $HOME/../usr/etc
+    rm -rf bash.bashrc
+    cd
+    cd theme
+    cat "cl3ar.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+    cat "l0g0.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+    cat "n4m4.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+    cat "ps1.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+    rm -rf cl3ar.txt
+    rm -rf l0g0.txt
+    rm -rf ps1.txt
+    rm -rf n4m4.txt
+    python2 loanjing.py
+    echo "Tema Berhasil terpasang"
+    sleep 2
+}
+Frugalware() {
+    echo "clear" > cl3ar.txt
+    echo "screenfetch -A Frugalware" > l0g0.txt
+    echo "PS1='\n\n\[\033[1;36m\]╭──\[\033[1;31m\][\[\033[1;32m\]$ps1\[\033[1;31m\]]\[\033[1;36m\]─\[\033[1;31m\][\[\033[1;33m\]\w\[\033[1;31m\]]\n\[\033[1;36m\]|\n╰─\[\033[1;31m\]~# \[\033[1;37m\]'" > ps1.txt
+    echo -e "echo '            \033[1;31mC0d3d B\033[1;37my3 $nama'" > n4m4.txt
+    cd $HOME/../usr/etc
+    rm -rf bash.bashrc
+    cd
+    cd theme
+    cat "cl3ar.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+    cat "l0g0.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+    cat "n4m4.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+    cat "ps1.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+    rm -rf cl3ar.txt
+    rm -rf l0g0.txt
+    rm -rf ps1.txt
+    rm -rf n4m4.txt
+    python2 loanjing.py
+    echo "Tema Berhasil terpasang"
+    sleep 2
+}
+SwagArch() {
+    echo "clear" > cl3ar.txt
+    echo "screenfetch -A SwagArch" > l0g0.txt
+    echo "PS1='\n\n\[\033[1;36m\]╭──\[\033[1;31m\][\[\033[1;32m\]$ps1\[\033[1;31m\]]\[\033[1;36m\]─\[\033[1;31m\][\[\033[1;33m\]\w\[\033[1;31m\]]\n\[\033[1;36m\]|\n╰─\[\033[1;31m\]~# \[\033[1;37m\]'" > ps1.txt
+    echo -e "echo '            \033[1;31mC0d3d B\033[1;37my3 $nama'" > n4m4.txt
+    cd $HOME/../usr/etc
+    rm -rf bash.bashrc
+    cd
+    cd theme
+    cat "cl3ar.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+    cat "l0g0.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+    cat "n4m4.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+    cat "ps1.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+    rm -rf cl3ar.txt
+    rm -rf l0g0.txt
+    rm -rf ps1.txt
+    rm -rf n4m4.txt
+    python2 loanjing.py
+    echo "Tema Berhasil terpasang"
+    sleep 2
+}
+Solus() {
+    echo "clear" > cl3ar.txt
+    echo "screenfetch -A Solus" > l0g0.txt
+    echo "PS1='\n\n\[\033[1;36m\]╭──\[\033[1;31m\][\[\033[1;32m\]$ps1\[\033[1;31m\]]\[\033[1;36m\]─\[\033[1;31m\][\[\033[1;33m\]\w\[\033[1;31m\]]\n\[\033[1;36m\]|\n╰─\[\033[1;31m\]~# \[\033[1;37m\]'" > ps1.txt
+    echo -e "echo '            \033[1;31mC0d3d B\033[1;37my3 $nama'" > n4m4.txt
+    cd $HOME/../usr/etc
+    rm -rf bash.bashrc
+    cd
+    cd theme
+    cat "cl3ar.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+    cat "l0g0.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+    cat "n4m4.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+    cat "ps1.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+    rm -rf cl3ar.txt
+    rm -rf l0g0.txt
+    rm -rf ps1.txt
+    rm -rf n4m4.txt
+    python2 loanjing.py
+    echo "Tema Berhasil terpasang"
+    sleep 2
+}
+Gentoo() {
+    echo "clear" > cl3ar.txt
+    echo "screenfetch -A Gentoo" > l0g0.txt
+    echo "PS1='\n\n\[\033[1;36m\]╭──\[\033[1;31m\][\[\033[1;32m\]$ps1\[\033[1;31m\]]\[\033[1;36m\]─\[\033[1;31m\][\[\033[1;33m\]\w\[\033[1;31m\]]\n\[\033[1;36m\]|\n╰─\[\033[1;31m\]~# \[\033[1;37m\]'" > ps1.txt
+    echo -e "echo '            \033[1;31mC0d3d B\033[1;37my3 $nama'" > n4m4.txt
+    cd $HOME/../usr/etc
+    rm -rf bash.bashrc
+    cd
+    cd theme
+    cat "cl3ar.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+    cat "l0g0.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+    cat "n4m4.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+    cat "ps1.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+    rm -rf cl3ar.txt
+    rm -rf l0g0.txt
+    rm -rf ps1.txt
+    rm -rf n4m4.txt
+    python2 loanjing.py
+    echo "Tema Berhasil terpasang"
+    sleep 2
+}
+Fux() {
+    echo "clear" > cl3ar.txt
+    echo "screenfetch -A Fux" > l0g0.txt
+    echo "PS1='\n\n\[\033[1;36m\]╭──\[\033[1;31m\][\[\033[1;32m\]$ps1\[\033[1;31m\]]\[\033[1;36m\]─\[\033[1;31m\][\[\033[1;33m\]\w\[\033[1;31m\]]\n\[\033[1;36m\]|\n╰─\[\033[1;31m\]~# \[\033[1;37m\]'" > ps1.txt
+    echo -e "echo '            \033[1;31mC0d3d B\033[1;37my3 $nama'" > n4m4.txt
+    cd $HOME/../usr/etc
+    rm -rf bash.bashrc
+    cd
+    cd theme
+    cat "cl3ar.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+    cat "l0g0.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+    cat "n4m4.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+    cat "ps1.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+    rm -rf cl3ar.txt
+    rm -rf l0g0.txt
+    rm -rf ps1.txt
+    rm -rf n4m4.txt
+    python2 loanjing.py
+    echo "Tema Berhasil terpasang"
+    sleep 2
+}
+PCLinuxOS() {
+    echo "clear" > cl3ar.txt
+    echo "screenfetch -A PCLinuxOS" > l0g0.txt
+    echo "PS1='\n\n\[\033[1;36m\]╭──\[\033[1;31m\][\[\033[1;32m\]$ps1\[\033[1;31m\]]\[\033[1;36m\]─\[\033[1;31m\][\[\033[1;33m\]\w\[\033[1;31m\]]\n\[\033[1;36m\]|\n╰─\[\033[1;31m\]~# \[\033[1;37m\]'" > ps1.txt
+    echo -e "echo '            \033[1;31mC0d3d B\033[1;37my3 $nama'" > n4m4.txt
+    cd $HOME/../usr/etc
+    rm -rf bash.bashrc
+    cd
+    cd theme
+    cat "cl3ar.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+    cat "l0g0.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+    cat "n4m4.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+    cat "ps1.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+    rm -rf cl3ar.txt
+    rm -rf l0g0.txt
+    rm -rf ps1.txt
+    rm -rf n4m4.txt
+    python2 loanjing.py
+    echo "Tema Berhasil terpasang"
+    sleep 2
+}
+CRUX() {
+    echo "clear" > cl3ar.txt
+    echo "screenfetch -A CRUX" > l0g0.txt
+    echo "PS1='\n\n\[\033[1;36m\]╭──\[\033[1;31m\][\[\033[1;32m\]$ps1\[\033[1;31m\]]\[\033[1;36m\]─\[\033[1;31m\][\[\033[1;33m\]\w\[\033[1;31m\]]\n\[\033[1;36m\]|\n╰─\[\033[1;31m\]~# \[\033[1;37m\]'" > ps1.txt
+    echo -e "echo '            \033[1;31mC0d3d B\033[1;37my3 $nama'" > n4m4.txt
+    cd $HOME/../usr/etc
+    rm -rf bash.bashrc
+    cd
+    cd theme
+    cat "cl3ar.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+    cat "l0g0.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+    cat "n4m4.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+    cat "ps1.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+    rm -rf cl3ar.txt
+    rm -rf l0g0.txt
+    rm -rf ps1.txt
+    rm -rf n4m4.txt
+    python2 loanjing.py
+    echo "Tema Berhasil terpasang"
+    sleep 2
+}
+Sabayon() {
+    echo "clear" > cl3ar.txt
+    echo "screenfetch -A Sabayon" > l0g0.txt
+    echo "PS1='\n\n\[\033[1;36m\]╭──\[\033[1;31m\][\[\033[1;32m\]$ps1\[\033[1;31m\]]\[\033[1;36m\]─\[\033[1;31m\][\[\033[1;33m\]\w\[\033[1;31m\]]\n\[\033[1;36m\]|\n╰─\[\033[1;31m\]~# \[\033[1;37m\]'" > ps1.txt
+    echo -e "echo '            \033[1;31mC0d3d B\033[1;37my3 $nama'" > n4m4.txt
+    cd $HOME/../usr/etc
+    rm -rf bash.bashrc
+    cd
+    cd theme
+    cat "cl3ar.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+    cat "l0g0.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+    cat "n4m4.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+    cat "ps1.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+    rm -rf cl3ar.txt
+    rm -rf l0g0.txt
+    rm -rf ps1.txt
+    rm -rf n4m4.txt
+    python2 loanjing.py
+    echo "Tema Berhasil terpasang"
+    sleep 2
+}
+Chakra() {
+    echo "clear" > cl3ar.txt
+    echo "screenfetch -A Chakra" > l0g0.txt
+    echo "PS1='\n\n\[\033[1;36m\]╭──\[\033[1;31m\][\[\033[1;32m\]$ps1\[\033[1;31m\]]\[\033[1;36m\]─\[\033[1;31m\][\[\033[1;33m\]\w\[\033[1;31m\]]\n\[\033[1;36m\]|\n╰─\[\033[1;31m\]~# \[\033[1;37m\]'" > ps1.txt
+    echo -e "echo '            \033[1;31mC0d3d B\033[1;37my3 $nama'" > n4m4.txt
+    cd $HOME/../usr/etc
+    rm -rf bash.bashrc
+    cd
+    cd theme
+    cat "cl3ar.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+    cat "l0g0.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+    cat "n4m4.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+    cat "ps1.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+    rm -rf cl3ar.txt
+    rm -rf l0g0.txt
+    rm -rf ps1.txt
+    rm -rf n4m4.txt
+    python2 loanjing.py
+    echo "Tema Berhasil terpasang"
+    sleep 2
+}
+SteamOS() {
+    echo "clear" > cl3ar.txt
+    echo "screenfetch -A SteamOS" > l0g0.txt
+    echo "PS1='\n\n\[\033[1;36m\]╭──\[\033[1;31m\][\[\033[1;32m\]$ps1\[\033[1;31m\]]\[\033[1;36m\]─\[\033[1;31m\][\[\033[1;33m\]\w\[\033[1;31m\]]\n\[\033[1;36m\]|\n╰─\[\033[1;31m\]~# \[\033[1;37m\]'" > ps1.txt
+    echo -e "echo '            \033[1;31mC0d3d B\033[1;37my3 $nama'" > n4m4.txt
+    cd $HOME/../usr/etc
+    rm -rf bash.bashrc
+    cd
+    cd theme
+    cat "cl3ar.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+    cat "l0g0.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+    cat "n4m4.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+    cat "ps1.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+    rm -rf cl3ar.txt
+    rm -rf l0g0.txt
+    rm -rf ps1.txt
+    rm -rf n4m4.txt
+    python2 loanjing.py
+    echo "Tema Berhasil terpasang"
+    sleep 2
+}
+Korora() {
+    echo "clear" > cl3ar.txt
+    echo "screenfetch -A Korora" > l0g0.txt
+    echo "PS1='\n\n\[\033[1;36m\]╭──\[\033[1;31m\][\[\033[1;32m\]$ps1\[\033[1;31m\]]\[\033[1;36m\]─\[\033[1;31m\][\[\033[1;33m\]\w\[\033[1;31m\]]\n\[\033[1;36m\]|\n╰─\[\033[1;31m\]~# \[\033[1;37m\]'" > ps1.txt
+    echo -e "echo '            \033[1;31mC0d3d B\033[1;37my3 $nama'" > n4m4.txt
+    cd $HOME/../usr/etc
+    rm -rf bash.bashrc
+    cd
+    cd theme
+    cat "cl3ar.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+    cat "l0g0.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+    cat "n4m4.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+    cat "ps1.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+    rm -rf cl3ar.txt
+    rm -rf l0g0.txt
+    rm -rf ps1.txt
+    rm -rf n4m4.txt
+    python2 loanjing.py
+    echo "Tema Berhasil terpasang"
+    sleep 2
+}
+gNewSense() {
+    echo "clear" > cl3ar.txt
+    echo "screenfetch -A gNewSense" > l0g0.txt
+    echo "PS1='\n\n\[\033[1;36m\]╭──\[\033[1;31m\][\[\033[1;32m\]$ps1\[\033[1;31m\]]\[\033[1;36m\]─\[\033[1;31m\][\[\033[1;33m\]\w\[\033[1;31m\]]\n\[\033[1;36m\]|\n╰─\[\033[1;31m\]~# \[\033[1;37m\]'" > ps1.txt
+    echo -e "echo '            \033[1;31mC0d3d B\033[1;37my3 $nama'" > n4m4.txt
+    cd $HOME/../usr/etc
+    rm -rf bash.bashrc
+    cd
+    cd theme
+    cat "cl3ar.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+    cat "l0g0.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+    cat "n4m4.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+    cat "ps1.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+    rm -rf cl3ar.txt
+    rm -rf l0g0.txt
+    rm -rf ps1.txt
+    rm -rf n4m4.txt
+    python2 loanjing.py
+    echo "Tema Berhasil terpasang"
+    sleep 2
+}
+Trisquel() {
+    echo "clear" > cl3ar.txt
+    echo "screenfetch -A Trisquel" > l0g0.txt
+    echo "PS1='\n\n\[\033[1;36m\]╭──\[\033[1;31m\][\[\033[1;32m\]$ps1\[\033[1;31m\]]\[\033[1;36m\]─\[\033[1;31m\][\[\033[1;33m\]\w\[\033[1;31m\]]\n\[\033[1;36m\]|\n╰─\[\033[1;31m\]~# \[\033[1;37m\]'" > ps1.txt
+    echo -e "echo '            \033[1;31mC0d3d B\033[1;37my3 $nama'" > n4m4.txt
+    cd $HOME/../usr/etc
+    rm -rf bash.bashrc
+    cd
+    cd theme
+    cat "cl3ar.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+    cat "l0g0.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+    cat "n4m4.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+    cat "ps1.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+    rm -rf cl3ar.txt
+    rm -rf l0g0.txt
+    rm -rf ps1.txt
+    rm -rf n4m4.txt
+    python2 loanjing.py
+    echo "Tema Berhasil terpasang"
+    sleep 2
+}
+Exherbo() {
+    echo "clear" > cl3ar.txt
+    echo "screenfetch -A Exherbo" > l0g0.txt
+    echo "PS1='\n\n\[\033[1;36m\]╭──\[\033[1;31m\][\[\033[1;32m\]$ps1\[\033[1;31m\]]\[\033[1;36m\]─\[\033[1;31m\][\[\033[1;33m\]\w\[\033[1;31m\]]\n\[\033[1;36m\]|\n╰─\[\033[1;31m\]~# \[\033[1;37m\]'" > ps1.txt
+    echo -e "echo '            \033[1;31mC0d3d B\033[1;37my3 $nama'" > n4m4.txt
+    cd $HOME/../usr/etc
+    rm -rf bash.bashrc
+    cd
+    cd theme
+    cat "cl3ar.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+    cat "l0g0.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+    cat "n4m4.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+    cat "ps1.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+    rm -rf cl3ar.txt
+    rm -rf l0g0.txt
+    rm -rf ps1.txt
+    rm -rf n4m4.txt
+    python2 loanjing.py
+    echo "Tema Berhasil terpasang"
+    sleep 2
+}
+Deepin() {
+    echo "clear" > cl3ar.txt
+    echo "screenfetch -A Deepin" > l0g0.txt
+    echo "PS1='\n\n\[\033[1;36m\]╭──\[\033[1;31m\][\[\033[1;32m\]$ps1\[\033[1;31m\]]\[\033[1;36m\]─\[\033[1;31m\][\[\033[1;33m\]\w\[\033[1;31m\]]\n\[\033[1;36m\]|\n╰─\[\033[1;31m\]~# \[\033[1;37m\]'" > ps1.txt
+    echo -e "echo '            \033[1;31mC0d3d B\033[1;37my3 $nama'" > n4m4.txt
+    cd $HOME/../usr/etc
+    rm -rf bash.bashrc
+    cd
+    cd theme
+    cat "cl3ar.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+    cat "l0g0.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+    cat "n4m4.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+    cat "ps1.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+    rm -rf cl3ar.txt
+    rm -rf l0g0.txt
+    rm -rf ps1.txt
+    rm -rf n4m4.txt
+    python2 loanjing.py
+    echo "Tema Berhasil terpasang"
+    sleep 2
+}
+Mageia() {
+    echo "clear" > cl3ar.txt
+    echo "screenfetch -A Mageia" > l0g0.txt
+    echo "PS1='\n\n\[\033[1;36m\]╭──\[\033[1;31m\][\[\033[1;32m\]$ps1\[\033[1;31m\]]\[\033[1;36m\]─\[\033[1;31m\][\[\033[1;33m\]\w\[\033[1;31m\]]\n\[\033[1;36m\]|\n╰─\[\033[1;31m\]~# \[\033[1;37m\]'" > ps1.txt
+    echo -e "echo '            \033[1;31mC0d3d B\033[1;37my3 $nama'" > n4m4.txt
+    cd $HOME/../usr/etc
+    rm -rf bash.bashrc
+    cd
+    cd theme
+    cat "cl3ar.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+    cat "l0g0.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+    cat "n4m4.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+    cat "ps1.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+    rm -rf cl3ar.txt
+    rm -rf l0g0.txt
+    rm -rf ps1.txt
+    rm -rf n4m4.txt
+    python2 loanjing.py
+    echo "Tema Berhasil terpasang"
+    sleep 2
+}
+Logos() {
+    echo "clear" > cl3ar.txt
+    echo "screenfetch -A Logos" > l0g0.txt
+    echo "PS1='\n\n\[\033[1;36m\]╭──\[\033[1;31m\][\[\033[1;32m\]$ps1\[\033[1;31m\]]\[\033[1;36m\]─\[\033[1;31m\][\[\033[1;33m\]\w\[\033[1;31m\]]\n\[\033[1;36m\]|\n╰─\[\033[1;31m\]~# \[\033[1;37m\]'" > ps1.txt
+    echo -e "echo '            \033[1;31mC0d3d B\033[1;37my3 $nama'" > n4m4.txt
+    cd $HOME/../usr/etc
+    rm -rf bash.bashrc
+    cd
+    cd theme
+    cat "cl3ar.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+    cat "l0g0.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+    cat "n4m4.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+    cat "ps1.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+    rm -rf cl3ar.txt
+    rm -rf l0g0.txt
+    rm -rf ps1.txt
+    rm -rf n4m4.txt
+    python2 loanjing.py
+    echo "Tema Berhasil terpasang"
+    sleep 2
+}
+Raspbian() {
+    echo "clear" > cl3ar.txt
+    echo "screenfetch -A Raspbian" > l0g0.txt
+    echo "PS1='\n\n\[\033[1;36m\]╭──\[\033[1;31m\][\[\033[1;32m\]$ps1\[\033[1;31m\]]\[\033[1;36m\]─\[\033[1;31m\][\[\033[1;33m\]\w\[\033[1;31m\]]\n\[\033[1;36m\]|\n╰─\[\033[1;31m\]~# \[\033[1;37m\]'" > ps1.txt
+    echo -e "echo '            \033[1;31mC0d3d B\033[1;37my3 $nama'" > n4m4.txt
+    cd $HOME/../usr/etc
+    rm -rf bash.bashrc
+    cd
+    cd theme
+    cat "cl3ar.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+    cat "l0g0.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+    cat "n4m4.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+    cat "ps1.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+    rm -rf cl3ar.txt
+    rm -rf l0g0.txt
+    rm -rf ps1.txt
+    rm -rf n4m4.txt
+    python2 loanjing.py
+    echo "Tema Berhasil terpasang"
+    sleep 2
+}
+CrunchBang() {
+    echo "clear" > cl3ar.txt
+    echo "screenfetch -A CrunchBang" > l0g0.txt
+    echo "PS1='\n\n\[\033[1;36m\]╭──\[\033[1;31m\][\[\033[1;32m\]$ps1\[\033[1;31m\]]\[\033[1;36m\]─\[\033[1;31m\][\[\033[1;33m\]\w\[\033[1;31m\]]\n\[\033[1;36m\]|\n╰─\[\033[1;31m\]~# \[\033[1;37m\]'" > ps1.txt
+    echo -e "echo '            \033[1;31mC0d3d B\033[1;37my3 $nama'" > n4m4.txt
+    cd $HOME/../usr/etc
+    rm -rf bash.bashrc
+    cd
+    cd theme
+    cat "cl3ar.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+    cat "l0g0.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+    cat "n4m4.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+    cat "ps1.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+    rm -rf cl3ar.txt
+    rm -rf l0g0.txt
+    rm -rf ps1.txt
+    rm -rf n4m4.txt
+    python2 loanjing.py
+    echo "Tema Berhasil terpasang"
+    sleep 2
+}
+LinuxDeepin() {
+    echo "clear" > cl3ar.txt
+    echo "screenfetch -A LinuxDeepin" > l0g0.txt
+    echo "PS1='\n\n\[\033[1;36m\]╭──\[\033[1;31m\][\[\033[1;32m\]$ps1\[\033[1;31m\]]\[\033[1;36m\]─\[\033[1;31m\][\[\033[1;33m\]\w\[\033[1;31m\]]\n\[\033[1;36m\]|\n╰─\[\033[1;31m\]~# \[\033[1;37m\]'" > ps1.txt
+    echo -e "echo '            \033[1;31mC0d3d B\033[1;37my3 $nama'" > n4m4.txt
+    cd $HOME/../usr/etc
+    rm -rf bash.bashrc
+    cd
+    cd theme
+    cat "cl3ar.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+    cat "l0g0.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+    cat "n4m4.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+    cat "ps1.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+    rm -rf cl3ar.txt
+    rm -rf l0g0.txt
+    rm -rf ps1.txt
+    rm -rf n4m4.txt
+    python2 loanjing.py
+    echo "Tema Berhasil terpasang"
+    sleep 2
+}
+openSUSE() {
+    echo "clear" > cl3ar.txt
+    echo "screenfetch -A openSUSE" > l0g0.txt
+    echo "PS1='\n\n\[\033[1;36m\]╭──\[\033[1;31m\][\[\033[1;32m\]$ps1\[\033[1;31m\]]\[\033[1;36m\]─\[\033[1;31m\][\[\033[1;33m\]\w\[\033[1;31m\]]\n\[\033[1;36m\]|\n╰─\[\033[1;31m\]~# \[\033[1;37m\]'" > ps1.txt
+    echo -e "echo '            \033[1;31mC0d3d B\033[1;37my3 $nama'" > n4m4.txt
+    cd $HOME/../usr/etc
+    rm -rf bash.bashrc
+    cd
+    cd theme
+    cat "cl3ar.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+    cat "l0g0.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+    cat "n4m4.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+    cat "ps1.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+    rm -rf cl3ar.txt
+    rm -rf l0g0.txt
+    rm -rf ps1.txt
+    rm -rf n4m4.txt
+    python2 loanjing.py
+    echo "Tema Berhasil terpasang"
+    sleep 2
+}
+bug() {
+    xdg-open http://wa.me/6282125068665?text=Assalamualaikum+Saya+Mau+Laporkan+Bug
+}
+subsribe() {
+    echo "  Coming Soon!!!"
+    sleep 3
+    bash hs7whehusw
+}
+gabung() {
+    echo "  Coming Soon!!!"
+    sleep 3
+    bash hs7whehusw
+}
+update() {
+    python2 loanjing.py
+    echo "Tools Sudah Di Perbaharui"
+    sleep 2
+    exit
+}
+menu
+read -p "Select your theme~# " pilih
+if [ $pilih = 1 ]
+then
+ident
+BLAG
+elif [ $pilih = 2 ]
+then
+ident
+KaOS
+elif [ $pilih = 3 ]
+then
+ident
+Debian
+elif [ $pilih = 4 ]
+then
+ident
+Pardus
+elif [ $pilih = 5 ]
+then
+ident
+ROSA
+elif [ $pilih = 6 ]
+then
+ident
+SailfishOS
+elif [ $pilih = 7 ]
+then
+ident
+Viperr and Void
+elif [ $pilih = 8 ]
+then
+ident
+SlackWare
+elif [ $pilih = 9 ]
+then
+ident
+Mandriva
+elif [ $pilih = 10 ]
+then
+ident
+Netrunner
+elif [ $pilih = 11 ]
+then
+ident
+Fedora
+elif [ $pilih = 12 ]
+then
+ident
+Fuduntu
+elif [ $pilih = 13 ]
+then
+ident
+BunsenLabs
+elif [ $pilih = 14 ]
+then
+ident
+CentOS
+elif [ $pilih = 15 ]
+then
+ident
+SparkyLinux
+elif [ $pilih = 16 ]
+then
+ident
+Frugalware
+elif [ $pilih = 17 ]
+then
+ident
+SwagArch
+elif [ $pilih = 18 ]
+then
+ident
+Solus
+elif [ $pilih = 19 ]
+then
+ident
+Gentoo
+elif [ $pilih = 20 ]
+then
+ident
+Fux
+elif [ $pilih = 21 ]
+then
+ident
+PCLinuxOS
+elif [ $pilih = 22 ]
+then
+ident
+CRUX
+elif [ $pilih = 23 ]
+then
+ident
+Sabayon
+elif [ $pilih = 24 ]
+then
+ident
+Chakra
+elif [ $pilih = 25 ]
+then
+ident
+SteamOS
+elif [ $pilih = 26 ]
+then
+ident
+Korora
+elif [ $pilih = 27 ]
+then
+ident
+gNewSense
+elif [ $pilih = 28 ]
+then
+ident
+Trisquel
+elif [ $pilih = 29 ]
+then
+ident
+Exherbo
+elif [ $pilih = 30 ]
+then
+ident
+Deepin
+elif [ $pilih = 31 ]
+then
+ident
+Mageia
+elif [ $pilih = 32 ]
+then
+ident
+Logos
+elif [ $pilih = 33 ]
+then
+ident
+Raspbian
+elif [ $pilih = 34 ]
+then
+ident
+CrunchBang
+elif [ $pilih = 35 ]
+then
+ident
+LinuxDeepin
+elif [ $pilih = 36 ]
+then
+ident
+openSUSE
+elif [ $pilih = 37 ]
+then
+bug
+elif [ $pilih = 38 ]
+then
+subscribe
+elif [ $pilih = 39 ]
+then
+gabung
+elif [ $pilih = 40 ]
+then
+update
+else
+echo "Pilihan Tidak Tersedia..."
+sleep 2
+bash hs7whehusw
+fi
